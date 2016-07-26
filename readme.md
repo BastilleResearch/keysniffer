@@ -124,13 +124,6 @@ usage: ./tools/mosart-device-discovery.py
 
 ```
 
-## device discovery - SIGNIA SGN6210 based devices
-
-```
-usage: ./tools/mosart-device-discovery.py
-
-```
-
 ## device discovery - GE 98614 wireless keyboard
 
 ```
