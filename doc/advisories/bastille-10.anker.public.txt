@@ -1,0 +1,56 @@
+Bastille Threat Research Team Tracking Number 10
+Document version: 1.0
+
+Overview
+
+The Anker Ultra Slim 2.4GHz Wireless Compact Keyboard does not encrypt packets transmitted over
+the air, making it possible to sniff keystrokes typed by the user, and inject arbitrary keystrokes 
+into the computer. 
+
+
+
+Affected Platforms
+
+The following products have been tested and shown to be affected:
+
+- Anker Ultra Slim 2.4GHz Wireless Compact Keyboard
+- Anker USB dongle (USB ID 062a:4101)
+
+
+
+Impact
+
+The keyboard and USB dongle communicate using an unencrypted wireless protocol, making it possible 
+to sniff keystrokes and inject malicious keystrokes.
+
+
+
+Mitigation
+
+Exploiting this vulnerability involves wirelessly communicating with a USB dongle, which requires 
+physical proximity to the target computer. 
+
+
+
+Suggested Solutions 
+
+No solution available for recommendation. 
+
+
+
+More Information
+
+https://www.keysniffer.net/
+
+
+
+Test Environment
+
+Packet sniffing and injection were tested using a nRF24LU1+ based USB dongle to transmit RF packets 
+to an Anker USB dongle.
+
+
+
+Credits
+
+Marc Newlin
